@@ -19,6 +19,17 @@
       width: 30px;
       margin-right: 10px;
     }
+
+    .logo-wrapper{
+      display: flex;
+      flex-direction: column;
+
+      .slogan{
+        padding: 5px 0px;
+        font-size: 0.8rem;
+        color: #969696;
+      }
+    }
   }
 
   .footer-info {
@@ -88,3 +99,6 @@
     padding: 0px 20px;
   }
 }
+
+
+
