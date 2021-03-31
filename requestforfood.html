@@ -51,12 +51,12 @@
         <div class="customBox">
             <div class="text">
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident expedita commodi accusamus cum id tempora.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident expedita commodi accusamus cum id tempora.
+                    We are proud of organizations that work to get access to quality education, health care and skill based training to underserved communities in India.
+                     If our food support can help boost the impact of your work, we would love to partner with you.
                 </p>
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident expedita commodi accusamus cum id tempora.
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident expedita commodi accusamus cum id tempora.
+                    We work together with our partners to collect regular feedback from the students as well 
+                    as teachers to provide the best nutritional support required to benefit the child.
                 </p>
             </div>
             <img src="./img/carousel-bg-1.png" alt="">
@@ -66,26 +66,26 @@
     <div class="contact-form">
         <h1>Request food support</h1>
 
-        <form action="#" method="post">
+        <form action="#" method="post" data-netlify="true">
             <div class="form-section">
                 <div class="form-section-header">
                     Organisation Details
                 </div>
                 <div class="form-wrapper">
                     <div class="input-box-wrap">
-                        <input type="text" class="input-box" placeholder="Registered entity name" id="entity-name" />
+                        <input type="text" class="input-box" placeholder="Registered entity name" name="entity-name" id="entity-name" />
                         <label class="form-label" for="entity-name"></label>
                     </div>
 
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <div class="input-box-wrap">
-                                <input type="text" class="input-box" placeholder="Website link" id="website-link" />
+                                <input type="text" class="input-box" placeholder="Website link" name="website-link" id="website-link" />
                                 <label class="form-label" for="website-link"></label>
                             </div>
                         </div>
                         <div class="col-md-6">
-                            <select name="entity-type" id="org-type" required>
+                            <select name="entity-type" id="org-type"required>
                                 <option value="">Registration Status</option>
                                 <option value="1">Government Supported Entity (Registered)</option>
                                 <option value="2">Individual led charitable group</option>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     <div class="input-box-wrap">
-                        <input type="text" class="input-box" placeholder="Address of Entity" id="entity-address" />
+                        <input type="text" class="input-box" placeholder="Address of Entity" id="entity-address" name="entity-address"/>
                         <label class="form-label" for="entity-address"></label>
                     </div>
                 </div>
@@ -104,20 +104,20 @@
                 </div>
                 <div class="form-wrapper">
                     <div class="input-box-wrap">
-                        <input type="text" class="input-box" placeholder="Full name" id="entity-address" />
-                        <label class="form-label" for="entity-address"></label>
+                        <input type="text" class="input-box" placeholder="Full name" id="fullname" name="fullname"/>
+                        <label class="form-label" for="fullname"></label>
                     </div>
                     <div class="row align-items-center">
                         <div class="col-md-6">
                             <div class="input-box-wrap">
-                                <input type="text" class="input-box" placeholder="Phone no." id="phone-no" />
-                                <label class="form-label" for="website-link"></label>
+                                <input type="text" class="input-box" placeholder="Phone no." id="phone-no" name="phone-no" />
+                                <label class="form-label" for="phone-no"></label>
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="input-box-wrap">
-                                <input type="text" class="input-box" placeholder="Email ID" id="email-id" />
-                                <label class="form-label" for="website-link"></label>
+                                <input type="text" class="input-box" placeholder="Email ID" id="email-id" name="email-id" />
+                                <label class="form-label" for="email-id"></label>
                             </div>
                         </div>
                     </div>
